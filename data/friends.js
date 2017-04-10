@@ -1,27 +1,18 @@
-// ===============================================================================
-// DATA
-// Below data will hold all of the friend and the responses.
-// Initially we just set it equal to a "dummy" friend.
-
-// ===============================================================================
-
-var friendArray = [
-  {"name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-      5,
-      1,
-      4,
-      4,
-      5,
-      1,
-      2,
-      5,
-      4,
-      1
-    ]
-  }
-];
-
-// Export the array. This makes it accessible to other files using require.
-module.exports = friendArray;
+[
+    {
+        "name": "Barb",
+        "photo": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=0ahUKEwif-OPR-IvTAhVM7CYKHZwMBPcQjRwIBw&url=http%3A%2F%2Fwww.theaudiopod.com%2F&psig=AFQjCNGRssWNsBMxebthS4C09vxOEte_VA&ust=1491434505817850",
+        "scores": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+        ]
+    }
+]

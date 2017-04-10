@@ -9,30 +9,34 @@
 </head>
 
 <body>
-    <div class="container">
-        <style>
+    <style>
         .jumbotron {
             background: #2d2d30;
             color: orange;
         }
-        
+
         body {
             background: #1E90ff;
             background-image: url(https://thumbs.dreamstime.com/x/colorful-circle-flower-mandalas-seamless-pattern-i-ornate-blue-red-orange-vector-background-40597900.jpg);
             background-repeat: no-repeat;
             background-size: cover;
         }
-        
+
         h1,
         h2 {
             color: orange;
         }
-        .question,.answers,.form-group,.panel-title{
-            color:#0066ff;
+
+        .question,
+        .answers,
+        .form-group,
+        .panel-title {
+            color: #0066ff;
             font-family: cursive;
             font-size: 24px;
         }
-        </style>
+    </style>
+    <div class="container">
         <div class="jumbotron">
             <h1 class="text-center"><span class="glyphicon glyphicon-sunglasses"></span> Fast and Friendly Friend Finder</h1>
             <hr>
@@ -40,7 +44,7 @@
             <br>
             <div class="text-center">
                 <a href="/">
-                   
+
                 </a>
                 <a href="/home.html">
                     <button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-home"></span></button>
@@ -65,215 +69,217 @@
                                 <input type="text" class="form-control" id="photo">
                             </div>
                             <div id="quiz1">
-                                <div class="name">
-                                    
-                                                        <!--Questions for the Friend Survey-->
-                                                        <p class="question">I love going new places</p>
-                                                        <ul class="answers">
-                                                            <input type="radio" name="q1" value="1">Disagree!
-                                                            <br/>
-                                                            <input type="radio" name="q1" value="2">Somewhat Disagree
-                                                            <br/>
-                                                            <input type="radio" name="q1" value="3">Neutral
-                                                            <br/>
-                                                            <input type="radio" name="q1" value="4">Somewhat agree
-                                                            <br/>
-                                                            <input type="radio" name="q1" value="5">Agree!
-                                                        </ul>
-                                                        <br/>
-                                                        <p class="question">My faith plays a big part in my friendships</p>
-                                                        <ul class="answers">
-                                                           
-                                                            <input type="radio" name="q2" value="1">Disagree
-                                                            <br/>
-                                                            <input type="radio" name="q2" value="2">Somewhat Disagree
-                                                            <br/>
-                                                            <input type="radio" name="q2" value="3">Neutral
-                                                            <br/>
-                                                            <input type="radio" name="q2" value="4">Somewhat Disagree
-                                                            <br/>
-                                                            <input type="radio" name="q2" value="5">Agree
-                                                            </ul>
-                                                            <br/>
-                                                            <p class="question">Thursday night is for curling up with a good book.</p>
-                                                            <ul class="answers">
-                                                                <input type="radio" name="q3" value="1">Agree
-                                                                </br>
-                                                                <input type="radio" name="q3" value="2">Somewhat Agree
-                                                                <br/>
-                                                                <input type="radio" name="q3" value="3">Neutral
-                                                                <br/>
-                                                                <input type="radio" name="q3" value="4">Somewhat Agree
-                                                                <br/>
-                                                                <input type="radio" name="q3" value="5">Agree 100%
-                                                                <br/>
-                                                            </ul>
-                                                            <p class="question">I hate conflicts with friend</p>
-                                                            <ul class="answers">
-                                                                <input type="radio" name="q4" value="1">Disagree-keeps things interesting
-                                                                <br/>
-                                                                <input type="radio" name="q4" value="2">Somewhat Disagree
-                                                                <br/>
-                                                                <input type="radio" name="q4" value="3" id=>Whatever
-                                                                <br/>
-                                                                <input type="radio" name="q4" value="4">Somewhat Agree
-                                                                <br/>
-                                                                <input type="radio" name="q4" value="5">Agree
-                                                                <br/>
-                                                            </ul>
-                                                            <p class="question">Whether fuzzy kids or real kids, show me the pics!</p>
-                                                            <ul class="answers">
-                                                                <input type="radio" name="q5" value="1">Disagree
-                                                                <br/>
-                                                                <input type="radio" name="q5" value="2">Somewhat Disagree
-                                                                <br/>
-                                                                <input type="radio" name="q5" value="3">Neutral
-                                                                <br/>
-                                                                <input type="radio" name="q5" value="4">Somewhat Agree
-                                                                <br/>
-                                                                <input type="radio" name="q5" value="5">Agree-Show me the pics!
-                                                                <br/>
-                                                            </ul>
-                                                            <p class="question">Being current on all social media is a waste of time.</p>
-                                                            <ul class="answers">
-                                                                <input type="radio" name="q6" value="1">Disagree
-                                                                <br/>
-                                                                <input type="radio" name="q6" value="2">Somewhat Disagree
-                                                                <input type="radio" name="q6" value="3">Neutral
-                                                                <br/>
-                                                                <input type="radio" name="q6" value="4">Somewhat Agree
-                                                                <br/>
-                                                                <input type="radio" name="q6" value="5">Agree
-                                                                <br/>
-                                                            </ul>
-                                                            <p class="question">Exercise is necessary for happiness.</p>
-                                                            <ul class="answers">
-                                                                <input type="radio" name="q7" value="1" id>
-                                                                <label for="q7a">Disagree</label>
-                                                                <br/>
-                                                                <input type="radio" name="q7" value="2">Somewhat Disagree
-                                                                <br/>
-                                                                <input type="radio" name="q7" value="3">Neutral
-                                                                <br/>
-                                                                <input type="radio" name="q7" value="4">Somewhat Agree
-                                                                <br/>
-                                                                <input type="radio" name="q7" value="5">Agree
-                                                                <br/>
-                                                            </ul>
-                                                            <p class="question">Loyalty is very important in a friend.</p>
-                                                            <ul class="answers">
-                                                                <input type="radio" name="q8" value="1">Disagree - there are more important things.
-                                                                <br/>
-                                                                <input type="radio" name="q8" value="2">Somewhat Disagree
-                                                                <br/>
-                                                                <input type="radio" name="q8" value="3">Neutral
-                                                                <br/>
-                                                                <input type="radio" name="q8" value="4">Somewaht Agree
-                                                                <br/>
-                                                                <input type="radio" name="q8" value="5">Absolutely Agree
-                                                                <br/>
-                                                            </ul>
-                                                            <p class="question">My dream job is to work at Disney World.</p>
-                                                            <ul class="answers">
-                                                                <input type="radio" name="q9" value="1">Disagree
-                                                                <br/>
-                                                                <input type="radio" name="q9" value="2">Somewhat Disagree
-                                                                <br/>
-                                                                <input type="radio" name="q9" value="3">Neutral
-                                                                <br/>
-                                                                <input type="radio" name="q9" value="4">Somewhat Agree
-                                                                <br/>
-                                                                <input type="radio" name="q9" value="5">Agree - grabbing my Mickey ears now!
-                                                                <br/>
-                                                            </ul>
-                                                            <p class="question">Trying new foods is really fun!</p>
-                                                            <ul class="answers">
-                                                                <input type="radio" name="q10" value="1">Yuck! Disagree
-                                                                <br/>
-                                                                <input type="radio" name="q10" value="2">Somewhat Disagree
-                                                                <br/>
-                                                                <input type="radio" name="q10" value="3">Neutral
-                                                                <br/>
-                                                                <input type="radio" name="q10" value="4">Somewhat Agree
-                                                                <br/>
-                                                                <input type="radio" name="q10" value="5">Yum! Agree
-                                                                <br/>
-                                                            </ul>
-                                                            <br/>
-                                                            <br/>
-                                </div>
-                                <div>
-                                    <button type="submit" class="btn btn-primary submit" id="addBtn">Submit</button>
-                        </form>
-                        </div>
-                        </div>
-                        
-                    </div>
-                    <script src="https://code.jquery.com/jquery.js"></script>
-                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-                    <footer class="footer">
-                        <div class="container">
-                            <p><a href="/data/friends">API Friends Link</a><a href="https://github.com/barbmitchellnc/friendfinder">GitHub Repo</a></p>
-                            <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-                    </footer>
 
-                    <!--Section for Modal for best match -->
-                    <div id="resultsModal" class="modal fade" role="dialog">
-                        <div class="modal-dialog">
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h2 class="modal-title"><strong>Best Match</strong></h2>
-                                </div>
-                                <div class="modal-body">
-                                    <h2 id="matchName"></h2>
-                                    <img id="matchImg" src="/assets/friends.jpg" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
+                                <!--Questions for the Friend Survey-->
+                                <p class="question">I love going new places</p>
+                                <ul class="answers">
+                                    <input type="radio" name="q1" value="1">Disagree!
+                                    <br/>
+                                    <input type="radio" name="q1" value="2">Somewhat Disagree
+                                    <br/>
+                                    <input type="radio" name="q1" value="3">Neutral
+                                    <br/>
+                                    <input type="radio" name="q1" value="4">Somewhat agree
+                                    <br/>
+                                    <input type="radio" name="q1" value="5">Agree!
+                                </ul>
+                                <br/>
+                                <p class="question">My faith plays a big part in my friendships</p>
+                                <ul class="answers">
+
+                                    <input type="radio" name="q2" value="1">Disagree
+                                    <br/>
+                                    <input type="radio" name="q2" value="2">Somewhat Disagree
+                                    <br/>
+                                    <input type="radio" name="q2" value="3">Neutral
+                                    <br/>
+                                    <input type="radio" name="q2" value="4">Somewhat Disagree
+                                    <br/>
+                                    <input type="radio" name="q2" value="5">Agree
+                                </ul>
+                                <br/>
+                                <p class="question">Thursday night is for curling up with a good book.</p>
+                                <ul class="answers">
+                                    <input type="radio" name="q3" value="1">Agree
+                                    </br>
+                                    <input type="radio" name="q3" value="2">Somewhat Agree
+                                    <br/>
+                                    <input type="radio" name="q3" value="3">Neutral
+                                    <br/>
+                                    <input type="radio" name="q3" value="4">Somewhat Agree
+                                    <br/>
+                                    <input type="radio" name="q3" value="5">Agree 100%
+                                    <br/>
+                                </ul>
+                                <p class="question">I hate conflicts with friend</p>
+                                <ul class="answers">
+                                    <input type="radio" name="q4" value="1">Disagree-keeps things interesting
+                                    <br/>
+                                    <input type="radio" name="q4" value="2">Somewhat Disagree
+                                    <br/>
+                                    <input type="radio" name="q4" value="3" id=>Whatever
+                                    <br/>
+                                    <input type="radio" name="q4" value="4">Somewhat Agree
+                                    <br/>
+                                    <input type="radio" name="q4" value="5">Agree
+                                    <br/>
+                                </ul>
+                                <p class="question">Whether fuzzy kids or real kids, show me the pics!</p>
+                                <ul class="answers">
+                                    <input type="radio" name="q5" value="1">Disagree
+                                    <br/>
+                                    <input type="radio" name="q5" value="2">Somewhat Disagree
+                                    <br/>
+                                    <input type="radio" name="q5" value="3">Neutral
+                                    <br/>
+                                    <input type="radio" name="q5" value="4">Somewhat Agree
+                                    <br/>
+                                    <input type="radio" name="q5" value="5">Agree-Show me the pics!
+                                    <br/>
+                                </ul>
+                                <p class="question">Being current on all social media is a waste of time.</p>
+                                <ul class="answers">
+                                    <input type="radio" name="q6" value="1">Disagree
+                                    <br/>
+                                    <input type="radio" name="q6" value="2">Somewhat Disagree
+                                    <input type="radio" name="q6" value="3">Neutral
+                                    <br/>
+                                    <input type="radio" name="q6" value="4">Somewhat Agree
+                                    <br/>
+                                    <input type="radio" name="q6" value="5">Agree
+                                    <br/>
+                                </ul>
+                                <p class="question">Exercise is necessary for happiness.</p>
+                                <ul class="answers">
+                                    <input type="radio" name="q7" value="1" id>
+                                    <label for="q7a">Disagree</label>
+                                    <br/>
+                                    <input type="radio" name="q7" value="2">Somewhat Disagree
+                                    <br/>
+                                    <input type="radio" name="q7" value="3">Neutral
+                                    <br/>
+                                    <input type="radio" name="q7" value="4">Somewhat Agree
+                                    <br/>
+                                    <input type="radio" name="q7" value="5">Agree
+                                    <br/>
+                                </ul>
+                                <p class="question">Loyalty is very important in a friend.</p>
+                                <ul class="answers">
+                                    <input type="radio" name="q8" value="1">Disagree - there are more important things.
+                                    <br/>
+                                    <input type="radio" name="q8" value="2">Somewhat Disagree
+                                    <br/>
+                                    <input type="radio" name="q8" value="3">Neutral
+                                    <br/>
+                                    <input type="radio" name="q8" value="4">Somewaht Agree
+                                    <br/>
+                                    <input type="radio" name="q8" value="5">Absolutely Agree
+                                    <br/>
+                                </ul>
+                                <p class="question">My dream job is to work at Disney World.</p>
+                                <ul class="answers">
+                                    <input type="radio" name="q9" value="1">Disagree
+                                    <br/>
+                                    <input type="radio" name="q9" value="2">Somewhat Disagree
+                                    <br/>
+                                    <input type="radio" name="q9" value="3">Neutral
+                                    <br/>
+                                    <input type="radio" name="q9" value="4">Somewhat Agree
+                                    <br/>
+                                    <input type="radio" name="q9" value="5">Agree - grabbing my Mickey ears now!
+                                    <br/>
+                                </ul>
+                                <p class="question">Trying new foods is really fun!</p>
+                                <ul class="answers">
+                                    <input type="radio" name="q10" value="1">Yuck! Disagree
+                                    <br/>
+                                    <input type="radio" name="q10" value="2">Somewhat Disagree
+                                    <br/>
+                                    <input type="radio" name="q10" value="3">Neutral
+                                    <br/>
+                                    <input type="radio" name="q10" value="4">Somewhat Agree
+                                    <br/>
+                                    <input type="radio" name="q10" value="5">Yum! Agree
+                                    <br/>
+                                </ul>
+                                <br/>
+                                <br/>
                             </div>
-                        </div>
+                            <button type="submit" class="btn btn-primary submit" id="addBtn">Submit</button>
+                        </form>
+                        <button type="button" class="btn btn-primary submit" data-toggle="modal" data-target="#resultsModal" id='modal-show' hidden>Show me my friend! </button>
                     </div>
-                    </body>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/survey">API Friends Link</a><a href="https://github.com/barbmitchellnc/friendfinder">GitHub Repo</a></p>
+                <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+                    crossorigin="anonymous"></script>
+            </div>
+        </footer>
+
+        <!--Section for Modal for best match -->
+        <div id="resultsModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h2 class="modal-title"><strong>Best Match</strong></h2>
+                    </div>
+                    <div class="modal-body">
+                        <h2 id="matchName"></h2>
+                        <img id="matchImg" src="/assets/friends.jpg" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 
 </html>
 
-            <!--Jquery-->
+<!--Jquery-->
 <script type="text/javascript" src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
 
-<script type="text/javascript">//starts js
-// Chosen CSS
-   
-//takes basic info and adds it to the database
-$(addBtn).on("click", function(){
-  console.log("click");
-  
-    var answers=[] 
-    console.log(answers);
-//creates array to hold the values of the questions
-  //takes the value of each checked button and pushes it into the array
-    $('input:checked').each(function(){ 
-    answers.push($(this).val());
-});
-          
-      //creates information api to send to database
-      var userData = 
-      {
-        name: $("#name").val(),       
-        photo:$("#photo").val(), //need to check
-        score:$(answers)
-      };
-      console.log(userData);
-//gets the location of the root page
-var currentURL = window.location.origin;
-      //adds new member to the api database
-      $.post(currentURL + "/api/friends", userData,
-        function(data){
-        $("#matchName").text(data.name);
-        $("#matchImg").attr("src", data.photo);
-        $("#resultsModal").modal('toggle');
+<script type="text/javascript">
+    //starts js
+    // Chosen CSS
+
+    //takes basic info and adds it to the database
+    $('#addBtn').on("click", function (e) {
+        e.preventDefault();
+        console.log("click");
+
+        var answers = []
+        console.log(answers);
+        //creates array to hold the values of the questions
+        //takes the value of each checked button and pushes it into the array
+        $('input:checked').each(function () {
+            answers.push($(this).val());
+        });
+
+        //creates information api to send to database
+        var userData = {
+            name: $("#name").val(),
+            photo: $("#photo").val(),
+            scores: answers
+        };
+        console.log(userData);
+        //gets the location of the root page
+        var currentURL = window.location.origin;
+        //adds new member to the api database
+        $.post(currentURL + "/api/survey", userData, function (data) {
+            $("#matchName").text(data.name);
+            $("#matchImg").attr("src", data.photo);
+            $("#modal-show").show();
         });
     })
 </script>
