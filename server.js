@@ -38,9 +38,9 @@ app.listen(PORT, function () {
         if (err) throw err;
         if (stats.isFile()) {
             fs.readFile("data/friends.js", "utf8", function (err, data) {
-              var all=[];
-              
+                var all = JSON.parse(data);              
                 for (i = 0; i < all.length; i++) {
+                    console.log("adding friend: "+ all[i].name)
                     friends.push(all[i])
                 }
             });
